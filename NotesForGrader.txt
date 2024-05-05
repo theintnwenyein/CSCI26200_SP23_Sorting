@@ -1,0 +1,6 @@
+This program is written in C++ in Windows Power Shell on Tesla server.
+The main program is main.cpp and the command to run the program is g++ main.cpp -o main anf enter ./main.
+The program uses randomly generated data, but does not use srand(time(NULL)) as the consistency of the 
+input data is required to plot the graph. By using srand(time(NULL)), the program will generate different 
+random input number and the results of the swaps and comparisons will be different every time the program
+is run and it will be difficult for the grader to check the input data from the program and from the excel sheet. 
